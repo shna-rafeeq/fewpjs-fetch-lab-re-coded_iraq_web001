@@ -6,7 +6,7 @@ fetch('https://anapioficeandfire.com/api/books')
 })
 
 .then(function(json){
-  renderBooks(JSON);
+  renderBooks(json);
 })
 }
 
